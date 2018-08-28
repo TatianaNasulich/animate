@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+}
+.container{
+    background: url("image/flower.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding:10.385% 0;
+
+}
+.appear{
+    transition: opacity .15s ease;
+    opacity: 1;
+}
+
+
+.font{
+    font-family: HelveticaNeue_Light;
+    font-size: 1.3rem;
+}
+.form{
+    width: 31.19%;
+    margin: auto;
+    padding: 5.5% 0 3.46%;
+    background-color: rgba(255,255,255,0.8);
+    position: relative;
+    -webkit-animation: moveBottom 1s  ease;
+    animation:  moveBottom 1s  ease;
+    box-shadow:1px 1px 50px 0.5px  #6e6c6e ;
+
+}
+
+@-webkit-keyframes  moveBottom {
+    0%{
+        -webkit-transform:perspective(800px) rotateX(-50deg);
+        transform: perspective(800px) rotateX(-50deg);
+
+
+    }
+    80%{
+        -webkit-transform:rotateX(5deg);
+        transform:rotateX(5deg);
+    }
+    100%{
+        -webkit-transform:rotateX(0deg);
+        transform:rotateX(0deg);
+
+    }
+}
+.form_text_wrapper{
+    text-align: center;
+}
+.form_title{
+    font-size:2.59rem;
+}
+.form_text{
+    color: #999999;
+}
+
+.form_input_group{
+    margin: auto;
+    width: 77.7%;
+    padding: 9.72% 0;
+}
+.form_input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 4.48% 3.58%;
+    margin-bottom: 5%;
+}
+input::placeholder{
+    color: #999999;
+
+}
+.form_submit{
+    width: 77.7%;
+    margin: auto;
+    background-color: #3399ff;
+    outline: none;
+    color: #ffffff;
+    padding: 4.48% 0;
+    display: block;
+}
+.decoration_wrapper{
+    width: 27.77%;
+    height: 23.7%;
+    background-color: #ffffff;
+    box-shadow:0.5px 0.5px 10px 0.5px  #e3e9e5 ;
+    border-radius: 20px;
+    position: absolute;
+    left: 35%;
+    top: -12%;
+    -webkit-animation: moveTop 1s  ease;
+    animation:  moveTop 1s  ease;
+}
+
+.elem{
+    width: 30%;
+    height: 30%;
+    border-radius: 10px;
+    margin: auto;
+    -webkit-animation: moveTop 2s  ease;
+    animation:  moveTop 2s  ease;
+    position: absolute;
+}
+.orange{
+    background-color: #f8911d;
+    opacity: 0.8;
+    left: 30%;
+    top: 16.5%;
+}
+.purple{
+    background-color: rgba(204,51, 153, 0.7);
+    left: 43%;
+    top:30%;
+
+}
+.blue{
+    background-color: #3e9ffd;
+    left: 30%;
+    top:46.5%;
+    opacity: 0.7;
+}
+.green{
+    background-color: #4ebf49;
+    left: 43%;
+    top:60%;
+    opacity: 0.7;
+}
+
+@-webkit-keyframes moveTop {
+    0%{
+        -webkit-transform:perspective(200px) rotateX(55deg);
+        transform: perspective(200px) rotateX(55deg);
+    }
+    80%{
+        -webkit-transform:rotateX(-10deg);
+        transform:rotateX(-10deg);
+    }
+    100%{
+        -webkit-transform:rotateX(0deg);
+        transform:rotateX(0deg);
+    }
+}
+
+
+
